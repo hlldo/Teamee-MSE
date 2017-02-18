@@ -9,15 +9,15 @@
 
                 <div class="col m4 white-text text-darken-3 vertical-divider">
                     <h5 style="padding-left:15px"><b>Contact Info</b></h5>
-                    <p style="padding-right:15px; padding-left:15px; text-align:left; font-size:12pt;"><i class="material-icons icons">call</i><a href="callto://+1(714)274-9305" class="white-text text-darken-3">(714) 274-9305</a><br>
+                    <p style="padding-right:15px; padding-left:15px; text-align:left; font-size:12pt;"><i class="material-icons icons">call</i><a href="callto://+1(123)456-7890" class="white-text text-darken-3">(714) 274-9305</a><br>
                     <i class="material-icons icons">email</i><a href="#" class="white-text text-darken-3">info@teamee.com</a><br>
-                    <i class="material-icons icons">business</i>12345 Main St. <br>Small Town, CA 98765</p>
+                    <i class="material-icons icons">business</i> 12345 Main St. <br>Small Town, CA 98765</p>
                 </div>
 
                 <div class="col m4 white-text text-darken-3 vertical-divider">
                     <h5 style="padding-left:15px"><b>Teamee Contents</b></h5>
-                    <p><i class="material-icons icons" style="padding-left:15px">store_mall_directory</i><a href="map" class="white-text text-darken-3">Centers</a><br>
-                    <i class="material-icons icons" style="padding-left:15px">movie</i><a href="videos" class="white-text text-darken-3">Videos</a><br>
+                    <p><i class="material-icons icons" style="padding-left:15px">store_mall_directory</i><a href="locations" class="white-text text-darken-3">Locations</a><br>
+                    <i class="material-icons icons" style="padding-left:15px">web</i><a href="menu" class="white-text text-darken-3">Menu</a><br>
                     <i class="material-icons icons" style="padding-left:15px">assignment_ind</i><a href="contact" class="white-text text-darken-3">Contact</a></p>
                 </div>
 

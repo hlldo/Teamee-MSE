@@ -63,20 +63,16 @@
        </ul>
         <!-- End of dropdown-menu for About Us LAPTOP VIEW-->
 
-       <!-- Dropdown-menu for Training and Education LAPTOP VIEW -->
-       <ul id="training" class="dropdown-content">
-           <li><a href="LLLT_Benefits">LLLT Benefits</a></li>
-           <li><a href="belg_method">BELG Method</a></li>
-           <li><a href="oem_medical">OEM Medical</a></li>
-           <li><a href="lms">LMS</a></li>
-           <li class="divider"></li>
-           <li><a href="videos">Videos</a></li>
-           <li><a href="http://www.uaohs.com/index.php">Academy of Health Science</a></li>
+       <!-- Dropdown-menu for Menu LAPTOP VIEW -->
+       <ul id="menu" class="dropdown-content">
+           <li><a href="Tea">Tea</a></li>
+           <li><a href="Coffee">Coffee</a></li>
+           <li><a href="Snacks">Snacks</a></li>
        </ul>
-       <!-- End of dopdown-menu for Training and Education LAPTOP VIEW-->
+       <!-- End of dopdown-menu for Menu and Education LAPTOP VIEW-->
 
-        <!-- Dropdown-menu for Centers LAPTOP VIEW -->
-        <ul id="centers" class="dropdown-content">
+        <!-- Dropdown-menu for locations LAPTOP VIEW -->
+        <ul id="location" class="dropdown-content">
             <li><a href="map">Map</a></li>
            <li><a href="showroom">Showroom</a></li>
             <li><a href="anaheim">Anaheim</a></li>
@@ -88,7 +84,7 @@
            <li><a href="sandiego">San Diego</a></li>
            <li><a href="sangabriel">San Gabriel</a></li>
        </ul>
-       <!-- End of dopdown-menu for Centers LAPTOP VIEW-->
+       <!-- End of dopdown-menu for locations LAPTOP VIEW-->
 
 
 
@@ -103,20 +99,16 @@
        </ul>
         <!-- End of dropdown-menu for About Us MOBILE VIEW-->
 
-       <!-- Dropdown-menu for Training and Education MOBILE VIEW-->
-       <ul id="training2" class="dropdown-content">
-           <li><a href="LLLT_Benefits">LLLT Benefits</a></li>
-           <li><a href="belg_method">BELG Method</a></li>
-           <li><a href="oem_medical">OEM Medical</a></li>
-           <li><a href="lms">LMS</a></li>
-           <li class="divider"></li>
-           <li><a href="videos">Videos</a></li>
-           <li><a href="http://www.uaohs.com/index.php">Academy of Health Science</a></li>
+       <!-- Dropdown-menu for Menu and Education MOBILE VIEW-->
+       <ul id="menu" class="dropdown-content">
+           <li><a href="Tea">Tea</a></li>
+           <li><a href="Coffee">Coffee</a></li>
+           <li><a href="Snacks">Snacks</a></li>
        </ul>
-       <!-- End of dopdown-menu for Training and Education MOBILE VIEW-->
+       <!-- End of dopdown-menu for Menu and Education MOBILE VIEW-->
 
-        <!-- Dropdown-menu for Centers MOBILE VIEW -->
-        <ul id="centers2" class="dropdown-content">
+        <!-- Dropdown-menu for locations MOBILE VIEW -->
+        <ul id="locations2" class="dropdown-content">
             <li><a href="map">Map</a></li>
           <li><a href="showroom">Showroom</a></li>
             <li><a href="anaheim">Anaheim</a></li>
@@ -128,7 +120,7 @@
            <li><a href="sandiego">San Diego</a></li>
            <li><a href="sangabriel">San Gabriel</a></li>
        </ul>
-       <!-- End of dopdown-menu for Centers MOBILE VIEW-->
+       <!-- End of dopdown-menu for locations MOBILE VIEW-->
 
         <nav class="transparent" style="z-index:10;">
             <div class="nav-wrapper">
@@ -143,8 +135,8 @@
                 <ul class="right hide-on-med-and-down">
                     <li><a href="/" style="font-size:12pt;">HOME</a></li>
                     <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="aboutus" style="font-size:12pt; padding:0px 20px;">ABOUT US</a></li>
-                    <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="centers" style="font-size:12pt; padding:0px 20px;">CENTERS</a></li>
-                    <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="training" style="font-size:12pt;">TRAINING AND EDUCATION</a></li>
+                    <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="locations" style="font-size:12pt; padding:0px 20px;">LOCATIONS</a></li>
+                    <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="menu" style="font-size:12pt;">MENU</a></li>
                     <li><a href="contact" style="font-size:12pt;">CONTACT</a></li>
                     <li><a data-beloworigin="true" data-hover="true" class="modal-trigger waves-effect waves-light btn" href="#login" style="font-size:1.0em;background-color:#24478f;border:0px;">LOGIN</a></li>
                 </ul>
@@ -154,8 +146,8 @@
                 <ul class="side-nav" id="mobile-view">
                     <li class="active"><a href="/">HOME</a></li>
                     <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="aboutus2">ABOUT US</a></li>
-                    <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="centers2">CENTERS</a></li>
-                    <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="training2">TRAINING AND EDUCATION</a></li>
+                    <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="locations2">LOCATIONS</a></li>
+                    <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="menu2">MENU</a></li>
                     <li><a href="contact">CONTACT</a></li>
                     <li><a data-beloworigin="true" data-hover="true" class="modal-trigger waves-effect waves-light btn" href="#login" style="font-size:1.0em;background-color:#24478f">Login</a></li>
                 </ul>
