@@ -28,22 +28,226 @@ footer.page-footer {
     padding: 0em;
     min-height: 1px;
 }
-@media only screen and (min-width: 714px)
-undono.css:1876
+@media only screen and (min-width: 714px){
 footer.page-footer .footer-copyright {
     height: 100px;
     line-height: 100px;
 }
-@media only screen and (min-width: 320px)
-undono.css:1862
+@media only screen and (min-width: 320px){
+
 footer.page-footer .footer-copyright {
     height: 100px;
     line-height: 30px;
 }
-undono.css:1854
+
 footer.page-footer .footer-copyright {
     overflow: hidden;
     height: 100px;
     line-height: 100px;
     background-color: #0d0d0d;
+}
+  #map {
+    height: 100%;
+  }
+  /* Optional: Makes the sample page fill the window. */
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+    #pac-input {
+    background-color: white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+  color: black;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 300px;
+border:1px solid rgb(51, 51, 153);
+  }
+    input.controls {
+    margin-top: -45px;
+    position: absolute;
+color:white;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    z-index: 1000;
+    left:300px;
+background-color: rgb(51, 51, 153);
+  }
+
+    #mapButton{
+        margin-top: -45px;
+        height: 32.6px;
+        left:600px;
+        position: absolute;
+        z-index: 1000;
+        background-color:#996600;
+        color: white;
+        border: 0px;
+    }
+    #pac-input:focus {
+      border-color: #4d90fe;
+}
+/******** Mobile Friendly *********/
+@media (min-width:300px) and (max-width:321px){
+  input.controls {
+    margin-top: 0px;
+    position: absolute;
+color:white;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    z-index: 1000;
+    left:-10px;
+background-color: rgb(51, 51, 153);
+  }
+
+    #mapButton{
+        margin-top: 0px;
+        height: 32px;
+        left:270px;
+        position: absolute;
+        z-index: 1000;
+        background-color:#275CD5;
+        color: white;
+        border: 0px;
+      }
+}
+
+@media (min-width:321px) and (max-width:415px){
+  input.controls {
+    margin-top: 0px;
+    position: absolute;
+color:white;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    z-index: 1000;
+    left:-10px;
+background-color: rgb(51, 51, 153);
+  }
+
+    #mapButton{
+        margin-top: 0px;
+        height: 32px;
+        left:300px;
+        position: absolute;
+        z-index: 1000;
+        background-color:#275CD5;
+        color: white;
+        border: 0px;
+      }
+}
+
+@media (min-width:415px) and (max-width:768px){
+    input.controls {
+    margin-top: 0px;
+    position: absolute;
+color:white;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    z-index: 1000;
+    left:-10px;
+background-color: rgb(51, 51, 153);
+  }
+
+    #mapButton{
+        margin-top: 0px;
+        height: 32px;
+        left:300px;
+        position: absolute;
+        z-index: 1000;
+        background-color:#275CD5;
+        color: white;
+        border: 0px;
+      }
+}
+
+@media (min-width:768px) and (max-width:1220px){
+    input.controls {
+    margin-top: 0px;
+    position: absolute;
+color:white;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    z-index: 1000;
+    left:-10px;
+background-color: rgb(51, 51, 153);
+  }
+
+    #mapButton{
+        margin-top: 0px;
+        height: 32px;
+        left:300px;
+        position: absolute;
+        z-index: 1000;
+        background-color:#275CD5;
+        color: white;
+        border: 0px;
+      }
+}
+
+@media (min-width:1280px) and (max-width:1365px){
+  input.controls {
+    margin-top: -45px;
+    position: absolute;
+color:white;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    z-index: 1000;
+    left:260px;
+background-color: rgb(51, 51, 153);
+width: 14% !important;
+  }
+
+    #mapButton{
+        margin-top: -45px;
+        height: 32.6px;
+        left:445px;
+        position: absolute;
+        z-index: 1000;
+        background-color:#275CD5;
+        color: white;
+        border: 0px;
+    }
+}
+
+@media (min-width:1366px) and (max-width:1441px){
+  input.controls {
+    margin-top: -45px;
+    position: absolute;
+color:white;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    z-index: 1000;
+    left:260px;
+background-color: rgb(51, 51, 153);
+    width: 19.5% !important;
+  }
+
+    #mapButton{
+        margin-top: -45px;
+        height: 32.6px;
+        left:530px;
+        position: absolute;
+        z-index: 1000;
+        background-color:#275CD5;
+        color: white;
+        border: 0px;
+    }
 }

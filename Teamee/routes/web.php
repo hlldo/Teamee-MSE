@@ -15,9 +15,15 @@ Route::get('/', function () {
     return view('homepage');
 });
 
-Route::get('/products', function () {
-    return view('products');
+Route::get('/menu', function () {
+    return view('menu');
 });
 Route::get('/header', function () {
     return view('header');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/location', function () {
+    return view('location');
 });

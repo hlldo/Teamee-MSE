@@ -52,17 +52,6 @@
     <!-- Nav Bar -->
     <div class="navbar-fixed">
 
-       <!-- Dropdown-menu for About Us LAPTOP VIEW-->
-       <ul id="aboutus" class="dropdown-content">
-            <li><a href="team">Team</a></li>
-            <li><a href="relations">Investor Relations</a></li>
-            <li><a href="fda_cleared">FDA Cleared</a></li>
-            <li><a onclick="myPrompt()" href="#">Forms</a></li>
-            <li class="divider"></li>
-            <li><a href="supplement">Supplement</a></li>
-       </ul>
-        <!-- End of dropdown-menu for About Us LAPTOP VIEW-->
-
        <!-- Dropdown-menu for Menu LAPTOP VIEW -->
        <ul id="menu" class="dropdown-content">
            <li><a href="Tea">Tea</a></li>
@@ -73,52 +62,28 @@
 
         <!-- Dropdown-menu for locations LAPTOP VIEW -->
         <ul id="location" class="dropdown-content">
-            <li><a href="map">Map</a></li>
-           <li><a href="showroom">Showroom</a></li>
-            <li><a href="anaheim">Anaheim</a></li>
-            <li><a href="gainesville">Gainesville</a></li>
-            <li><a href="houston">Houston</a></li>
-            <li><a href="kansas_city">Kansas City</a></li>
-            <li><a href="lancaster">Lancaster</a></li>
-            <li><a href="seportland">Portland</a></li>
-           <li><a href="sandiego">San Diego</a></li>
-           <li><a href="sangabriel">San Gabriel</a></li>
+            <li><a href="location">Map</a></li>
+            <li><a href="#">Westminster, CA</a></li>
+            <li><a href="#">Fullerton, CA</a></li>
        </ul>
        <!-- End of dopdown-menu for locations LAPTOP VIEW-->
 
 
 
-       <!-- Dropdown-menu for About Us MOBILE VIEW-->
-        <ul id="aboutus2" class="dropdown-content">
-            <li><a href="team">Team</a></li>
-            <li><a href="relations">Investor Relations</a></li>
-            <li><a href="fda_cleared">FDA Cleared</a></li>
-            <li><a onclick="myPrompt()" href="#">Forms</a></li>
-            <li class="divider"></li>
-            <li><a href="supplement">Supplement</a></li>
-       </ul>
-        <!-- End of dropdown-menu for About Us MOBILE VIEW-->
 
-       <!-- Dropdown-menu for Menu and Education MOBILE VIEW-->
+       <!-- Dropdown-menu for Menu MOBILE VIEW-->
        <ul id="menu" class="dropdown-content">
            <li><a href="Tea">Tea</a></li>
            <li><a href="Coffee">Coffee</a></li>
            <li><a href="Snacks">Snacks</a></li>
        </ul>
-       <!-- End of dopdown-menu for Menu and Education MOBILE VIEW-->
+       <!-- End of dopdown-menu for Menu MOBILE VIEW-->
 
         <!-- Dropdown-menu for locations MOBILE VIEW -->
         <ul id="locations2" class="dropdown-content">
-            <li><a href="map">Map</a></li>
-          <li><a href="showroom">Showroom</a></li>
-            <li><a href="anaheim">Anaheim</a></li>
-            <li><a href="gainesville">Gainesville</a></li>
-            <li><a href="houston">Houston</a></li>
-            <li><a href="kansas_city">Kansas City</a></li>
-            <li><a href="lancaster">Lancaster</a></li>
-            <li><a href="portlandse">Portland</a></li>
-           <li><a href="sandiego">San Diego</a></li>
-           <li><a href="sangabriel">San Gabriel</a></li>
+            <li><a href="location">Map</a></li>
+            <li><a href="#">Westminster, CA</a></li>
+            <li><a href="#">Fullerton, CA</a></li>
        </ul>
        <!-- End of dopdown-menu for locations MOBILE VIEW-->
 
@@ -134,8 +99,8 @@
                 <!-- Laptop view -->
                 <ul class="right hide-on-med-and-down">
                     <li><a href="/" style="font-size:12pt;">HOME</a></li>
-                    <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="aboutus" style="font-size:12pt; padding:0px 20px;">ABOUT US</a></li>
-                    <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="locations" style="font-size:12pt; padding:0px 20px;">LOCATIONS</a></li>
+                    <li><a href="#" style="font-size:12pt;">ABOUT US</a></li>
+                    <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="location" style="font-size:12pt; padding:0px 20px;">LOCATIONS</a></li>
                     <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="menu" style="font-size:12pt;">MENU</a></li>
                     <li><a href="contact" style="font-size:12pt;">CONTACT</a></li>
                     <li><a data-beloworigin="true" data-hover="true" class="modal-trigger waves-effect waves-light btn" href="#login" style="font-size:1.0em;background-color:#24478f;border:0px;">LOGIN</a></li>
@@ -145,7 +110,7 @@
                 <!-- Mobile view-->
                 <ul class="side-nav" id="mobile-view">
                     <li class="active"><a href="/">HOME</a></li>
-                    <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="aboutus2">ABOUT US</a></li>
+                    <li><a href="#">ABOUT US</a></li>
                     <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="locations2">LOCATIONS</a></li>
                     <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="menu2">MENU</a></li>
                     <li><a href="contact">CONTACT</a></li>
