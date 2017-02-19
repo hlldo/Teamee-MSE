@@ -11,28 +11,20 @@
     <meta name="utf-8">
     <meta name="keywords" content="tea, drinks, relaxation, boba">
     <meta name="description" content="#">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
     <link rel="stylesheet" href="css/teamee.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-
     <script type="text/javascript" src="js/teamee.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> <!-- for the parallax.js -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> <!-- for the parallax.js -->
     <script src="js/jquery-1.8.3.min.js"></script> <!-- for magnifier glass -->
     <script src="js/jquery.elevatezoom.js"></script> <!-- for magnifier glass -->
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+	  <script src="js/parallax.min.js"></script> <!-- for the parallax.js -->
 
-	<script src="js/parallax.min.js"></script> <!-- for the parallax.js -->
-
-    <script>
-
+    <script
     $(document).ready(function(){
         $('.modal-trigger').leanModal();
         $(".button-collapse").sideNav();
@@ -46,12 +38,10 @@
     });
     </script>
 </head>
-
 <header>
 
     <!-- Nav Bar -->
     <div class="navbar-fixed">
-
        <!-- Dropdown-menu for Menu LAPTOP VIEW -->
        <ul id="menu" class="dropdown-content">
            <li><a href="Tea">Tea</a></li>
@@ -67,9 +57,6 @@
             <li><a href="#">Fullerton, CA</a></li>
        </ul>
        <!-- End of dopdown-menu for locations LAPTOP VIEW-->
-
-
-
 
        <!-- Dropdown-menu for Menu MOBILE VIEW-->
        <ul id="menu" class="dropdown-content">
@@ -151,16 +138,16 @@
                 <div class="col s12">
                      <h5>or</h5>
                         <a href="#facebook">
-                            <img src="assets/image/facebook-logo.png" class="social-media" alt="facebook" style="height:40px;width:40px;"/>
+                            <img src="image/facebook-logo.png" class="social-media" alt="facebook" style="height:40px;width:40px;"/>
                         </a>
                         <a href="#twitter">
-                            <img src="assets/image/twitter-logo.png" class="social-media" style="height:40px;width:40px;"/>
+                            <img src="image/twitter-logo.png" class="social-media" style="height:40px;width:40px;"/>
                         </a>
                         <a href="#googleplus">
-                             <img src="assets/image/Google_plus.png" class="social-media" style="height:42px;width:42px;"/>
+                             <img src="image/Google_plus.png" class="social-media" style="height:42px;width:42px;"/>
                         </a>
                         <a href="#linkedin">
-                            <img src="assets/image/LinkedIn_logo_initials.png" class="social-media" style="width:40px;"/>
+                            <img src="image/LinkedIn_logo_initials.png" class="social-media" style="width:40px;"/>
                         </a>
                 </div>
             </div>

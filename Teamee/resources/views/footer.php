@@ -3,7 +3,7 @@
             <div class="row" id="footer-row">
                 <div class="col m4 white-text text-darken-3 vertical-divider">
                     <h5 style="padding-left:15px"><b>Introduction</b></h5>
-                    <p style="padding-right:40px; padding-left: 15px; text-align:left; font-size:11pt;">Teamee is a deluxe tea and coffee house where customers can enjoy a relaxing drink in a comfortable environment. <a href="privacy">Privacy Policy</a>
+                    <p style="padding-right:40px; padding-left: 15px; text-align:left; font-size:11pt;">Teamee is a deluxe tea and coffee house where customers can enjoy a relaxing drink in a comfortable environment. <a href="#">Privacy Policy</a>
                     </p>
                 </div>
 
@@ -82,21 +82,21 @@
             <div class="container">
                 <div class="row">
                     <div class="col m6">
-                        Copyright &copy; <?php echo date("Y");?>. ALL RIGHT RESERVED
+                        Copyright &copy; <?php echo date("Y");?>. ALL RIGHTS RESERVED
                     </div>
 
                     <div class="col m6 right-align">
                         <a href="#">
-                            <img src="assets/image/facebook-logo.png" class="social-media"/>
+                            <img src="image/facebook_logo.png" class="social-media" style="width:35px;"/>
                         </a>
                         <a href="#">
-                            <img src="assets/image/LinkedIn_logo_initials.png" class="social-media" style="width:32px;"/>
+                            <img src="image/linkedin_logo.png" class="social-media" style="width:35px;"/>
                         </a>
                         <a href="#">
-                            <img src="assets/image/instagram_logo.jpeg" class="social-media" style="height:32px;width:33px;"/>
+                            <img src="image/instagram_logo.png" class="social-media" style="width:35px;"/>
                         </a>
                         <a href="#">
-                            <img src="assets/image/twitter-logo.png" class="social-media" style="height:32px;width:32px;"/>
+                            <img src="image/twitter_logo.png" class="social-media" style="width:35px;"/>
                         </a>
                     </div>
                 </div>
