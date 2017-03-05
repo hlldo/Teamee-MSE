@@ -95,6 +95,12 @@ include('header.php');
                  <p>lJDfjdl ldjfldfj adfdfa ljdljfa dfadf</p>
              </div>
           </div>
+            <div class="row">
+              <div class="col s12 m6">
+              </div>
+              <div class="col s12 m6">
+              </div>
+            </div>
          </div>
     </main>
 
