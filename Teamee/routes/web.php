@@ -27,3 +27,6 @@ Route::get('/contact', function () {
 Route::get('/location', function () {
     return view('location');
 });
+Route::get('/aboutus', function () {
+    return view('aboutus');
+});

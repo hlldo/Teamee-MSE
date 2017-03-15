@@ -24,7 +24,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 	  <script src="js/parallax.min.js"></script> <!-- for the parallax.js -->
 
-    <script
+    <script>
     $(document).ready(function(){
         $('.modal-trigger').leanModal();
         $(".button-collapse").sideNav();
@@ -36,6 +36,7 @@
         }
       });
     });
+
     </script>
 </head>
 <header>
@@ -86,7 +87,7 @@
                 <!-- Laptop view -->
                 <ul class="right hide-on-med-and-down">
                     <li><a href="/" style="font-size:12pt;">HOME</a></li>
-                    <li><a href="#" style="font-size:12pt;">ABOUT US</a></li>
+                    <li><a href="aboutus" style="font-size:12pt;">ABOUT US</a></li>
                     <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="location" style="font-size:12pt; padding:0px 20px;">LOCATIONS</a></li>
                     <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="menu" style="font-size:12pt;">MENU</a></li>
                     <li><a href="contact" style="font-size:12pt;">CONTACT</a></li>
@@ -97,7 +98,7 @@
                 <!-- Mobile view-->
                 <ul class="side-nav" id="mobile-view">
                     <li class="active"><a href="/">HOME</a></li>
-                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="aboutus">ABOUT US</a></li>
                     <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="locations2">LOCATIONS</a></li>
                     <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="menu2">MENU</a></li>
                     <li><a href="contact">CONTACT</a></li>
