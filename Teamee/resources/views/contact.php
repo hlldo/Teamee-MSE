@@ -6,11 +6,12 @@ $logoID='logo';
 include('header.php');
 ?>
 
-<body>
+<body style=" background-color:#996600;">
     <div class="parallax-container" data-parallax="scroll" data-position="left" data-image-src="image/serge-esteve-5821.jpg"></div>
 
     <main>
-      <div class="container-fluid" style="background-color:#996600; opacity:0.7;">
+      <div class="container" id="contactForm">
+
                 <div class="row">
                     <div class="col-md-12">
                         <br><br>

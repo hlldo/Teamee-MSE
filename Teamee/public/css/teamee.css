@@ -1,6 +1,7 @@
 html {
     font-family: 'Josefin Sans', sans-serif !important;
 }
+
 #logo {
     width: 215px;
     height: 70px;
@@ -19,7 +20,7 @@ footer.page-footer {
     margin: 0px;
     padding: 0px;
     border: 0px;
-    background-color: rgba(34, 34, 34, 0.6);
+    background-color: rgb(113, 119, 130);
     font-size: 1.2em;
 }
 .row .col {
