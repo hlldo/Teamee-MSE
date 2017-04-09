@@ -1,7 +1,9 @@
 html {
     font-family: 'Josefin Sans', sans-serif !important;
 }
-
+.text-center {
+  text-align: center;
+}
 #logo {
     width: 215px;
     height: 70px;
