@@ -14,7 +14,15 @@
 Route::get('/', function () {
     return view('homepage');
 });
-
+Route::get('/tea', function () {
+    return view('tea');
+});
+Route::get('/coffee', function () {
+    return view('coffee');
+});
+Route::get('/snacks', function () {
+    return view('snacks');
+});
 Route::get('/menu', function () {
     return view('menu');
 });

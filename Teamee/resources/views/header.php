@@ -45,19 +45,13 @@
     <div class="navbar-fixed">
        <!-- Dropdown-menu for Menu LAPTOP VIEW -->
        <ul id="menu" class="dropdown-content">
-           <li><a href="Tea">Tea</a></li>
-           <li><a href="Coffee">Coffee</a></li>
-           <li><a href="Snacks">Snacks</a></li>
+           <li><a href="tea">Tea</a></li>
+           <li><a href="coffee">Coffee</a></li>
+           <li><a href="snacks">Snacks</a></li>
        </ul>
        <!-- End of dopdown-menu for Menu and Education LAPTOP VIEW-->
 
-        <!-- Dropdown-menu for locations LAPTOP VIEW -->
-        <ul id="location" class="dropdown-content">
-            <li><a href="location">Map</a></li>
-            <li><a href="#">Westminster, CA</a></li>
-            <li><a href="#">Fullerton, CA</a></li>
-       </ul>
-       <!-- End of dopdown-menu for locations LAPTOP VIEW-->
+
 
        <!-- Dropdown-menu for Menu MOBILE VIEW-->
        <ul id="menu" class="dropdown-content">
@@ -66,14 +60,6 @@
            <li><a href="Snacks">Snacks</a></li>
        </ul>
        <!-- End of dopdown-menu for Menu MOBILE VIEW-->
-
-        <!-- Dropdown-menu for locations MOBILE VIEW -->
-        <ul id="locations2" class="dropdown-content">
-            <li><a href="location">Map</a></li>
-            <li><a href="#">Westminster, CA</a></li>
-            <li><a href="#">Fullerton, CA</a></li>
-       </ul>
-       <!-- End of dopdown-menu for locations MOBILE VIEW-->
 
         <nav class="transparent" style="z-index:10;">
             <div class="nav-wrapper">
@@ -88,7 +74,7 @@
                 <ul class="right hide-on-med-and-down">
                     <li><a href="/" style="font-size:12pt;">HOME</a></li>
                     <li><a href="aboutus" style="font-size:12pt;">ABOUT US</a></li>
-                    <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="location" style="font-size:12pt; padding:0px 20px;">LOCATIONS</a></li>
+                    <li><a href="location" style="font-size:12pt;">LOCATIONS</a></li>
                     <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="menu" style="font-size:12pt;">MENU</a></li>
                     <li><a href="contact" style="font-size:12pt;">CONTACT</a></li>
                     <li><a data-beloworigin="true" data-hover="true" class="modal-trigger waves-effect waves-light btn" href="#login" style="font-size:1.0em;background-color:#24478f;border:0px;">LOGIN</a></li>
@@ -99,7 +85,7 @@
                 <ul class="side-nav" id="mobile-view">
                     <li class="active"><a href="/">HOME</a></li>
                     <li><a href="aboutus">ABOUT US</a></li>
-                    <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="locations2">LOCATIONS</a></li>
+                    <li><a href="location" style="font-size:12pt;">LOCATIONS</a></li>
                     <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="menu2">MENU</a></li>
                     <li><a href="contact">CONTACT</a></li>
                     <li><a data-beloworigin="true" data-hover="true" class="modal-trigger waves-effect waves-light btn" href="#login" style="font-size:1.0em;background-color:#24478f">Login</a></li>

@@ -33,7 +33,7 @@ include('header.php');
               tea that you deserved.</p1>
           </div>
           <div class="col s12 m6">
-            <img src="image/danurwendho-adyakusuma-20997.jpg" style="width:500px; "alt="tea farm">
+            <img src="image/danurwendho-adyakusuma-20997.jpg" style="width:500px;" alt="tea farm">
           </div>
         </div>
         <h1 class="text-center">Latest Technology</h1>
