@@ -1,6 +1,26 @@
 html {
     font-family: 'Josefin Sans', sans-serif !important;
 }
+@media only screen and (max-width: 2000px){
+  .menuItems {
+    width:300px;
+}
+}
+@media only screen and (max-width: 1400px){
+  .menuItems {
+    width:200px;
+}
+}
+@media only screen and (max-width: 1000px){
+  .menuItems {
+    width:150px;
+}
+}
+@media only screen and (max-width: 500px){
+  .menuItems {
+    width:100px;
+}
+}
 .text-center {
   text-align: center;
 }
