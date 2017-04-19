@@ -25,37 +25,37 @@ include('header.php');
 <div class="container">
 <div class="row" style="padding-top:100px;">
   <div class="col s4 m3">
-    <img src="image/63855f1c6de9cd3e997926f88fb5f76e.jpg" style="width:300px;" alt="green tea latte">
+    <img src="image/menu/63855f1c6de9cd3e997926f88fb5f76e.jpg" style="width:300px;" alt="green tea latte">
     <h5 class="center-align">Green Tea Latte</h5>
   </div>
   <div class="col s4 m3">
-    <img src="image/rosemary-tea-TS-160595872.jpg" style="width:300px;" alt="green tea latte" >
+    <img src="image/menu/rosemary-tea-TS-160595872.jpg" style="width:300px;" alt="green tea latte" >
     <h5 class="center-align">Herbal Tea</h5>
   </div>
   <div class="col s4 m3">
-    <img src="image/TheHealthBenefitsOfTea.jpg" style="width:300px;" alt="green tea latte" >
+    <img src="image/menu/TheHealthBenefitsOfTea.jpg" style="width:300px;" alt="green tea latte" >
     <h5 class="center-align">Mint Tea</h5>
   </div>
   <div class="col s4 m3">
-    <img src="image/milk-tea-recipe.jpg" style="width:300px;" alt="green tea latte" >
+    <img src="image/menu/milk-tea-recipe.jpg" style="width:300px;" alt="green tea latte" >
     <h5 class="center-align">Milk Tea</h5>
   </div>
 </div>
 <div class="row">
   <div class="col s4 m3">
-    <img src="image/517828033_XS.jpg" style="width:300px;" alt="green tea latte">
+    <img src="image/menu/517828033_XS.jpg" style="width:300px;" alt="green tea latte">
     <h5 class="center-align">Lavender Tea</h5>
   </div>
   <div class="col s4 m3">
-    <img src="image/20889058_ml.jpg" style="width:300px;" alt="green tea latte" >
+    <img src="image/menu/20889058_ml.jpg" style="width:300px;" alt="green tea latte" >
     <h5 class="center-align">Lemon Ginger Tea</h5>
   </div>
   <div class="col s4 m3">
-    <img src="image/chamomile-tea-COMP-917316.jpg" style="width:300px;" alt="green tea latte" >
+    <img src="image/menu/chamomile-tea-COMP-917316.jpg" style="width:300px;" alt="green tea latte" >
     <h5 class="center-align">Chamoile Tea</h5>
   </div>
   <div class="col s4 m3">
-    <img src="image/green-tea-e1429210531847.jpg" style="width:300px;" alt="green tea latte" >
+    <img src="image/menu/green-tea-e1429210531847.jpg" style="width:300px;" alt="green tea latte" >
     <h5 class="center-align">Green Tea</h5>
   </div>
 </div>

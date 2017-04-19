@@ -1,6 +1,6 @@
 <!-- Header -->
 <?php
-$pageName='Tea';
+$pageName='Coffee';
 $logoImg='image/teameeLogo.png';
 $logoID='logo';
 include('header.php');
@@ -26,38 +26,38 @@ include('header.php');
 <div class="container">
 <div class="row" style="padding-top:100px;">
   <div class="col s6 m3">
-    <img src="image/coffee.jpg" class="menuItems" alt="green tea latte">
-    <h5 class="center-align">Caffe Americano</h5>
+    <img src="image/menu/coffee.jpg" class="menuItems" alt="green tea latte">
+    <h5 class="center-align itemName">Caffe Americano</h5>
   </div>
   <div class="col s6 m3">
-    <img src="image/product-capp.jpg" class="menuItems" alt="green tea latte" >
-    <h5 class="center-align">Cappuccino</h5>
+    <img src="image/menu/product-capp.jpg" class="menuItems" alt="green tea latte" >
+    <h5 class="center-align itemName">Cappuccino</h5>
   </div>
   <div class="col s6 m3">
-    <img src="image/o-CAPPUCCINO-facebook.jpg" class="menuItems"alt="green tea latte" >
-    <h5 class="center-align">Mocha Crumble Latte</h5>
+    <img src="image/menu/o-CAPPUCCINO-facebook.jpg" class="menuItems"alt="green tea latte" >
+    <h5 class="center-align itemName">Mocha Crumble Latte</h5>
   </div>
   <div class="col s6 m3">
-    <img src="image/Cappuccino_reg.jpg" class="menuItems" alt="green tea latte" >
-    <h5 class="center-align">Pumpkin Spice Swirl</h5>
+    <img src="image/menu/Cappuccino_reg.jpg" class="menuItems" alt="green tea latte" >
+    <h5 class="center-align itemName">Pumpkin Spice Swirl</h5>
   </div>
 </div>
 <div class="row">
   <div class="col s6 m3">
-    <img src="image/il-mondo-in-una-tazzina-69-1.jpg" class="menuItems"alt="green tea latte">
-    <h5 class="center-align">Vanilla Latte</h5>
+    <img src="image/menu/il-mondo-in-una-tazzina-69-1.jpg" class="menuItems"alt="green tea latte">
+    <h5 class="center-align itemName">Vanilla Latte</h5>
   </div>
   <div class="col s6 m3">
-    <img src="image/espresso-shot_ecoffee_la_pavoni.jpg" class="menuItems" alt="green tea latte" >
-    <h5 class="center-align">Expresso</h5>
+    <img src="image/menu/espresso-shot_ecoffee_la_pavoni.jpg" class="menuItems" alt="green tea latte" >
+    <h5 class="center-align itemName">Expresso</h5>
   </div>
   <div class="col s6 m3">
-    <img src="image/macchiato-1.jpg" class="menuItems" alt="green tea latte" >
-    <h5 class="center-align">Latte Macchiato</h5>
+    <img src="image/menu/macchiato-1.jpg" class="menuItems" alt="green tea latte" >
+    <h5 class="center-align itemName">Latte Macchiato</h5>
   </div>
   <div class="col s6 m3">
-    <img src="image/11115-Caramel-Macchiato.jpg" class="menuItems" alt="green tea latte" >
-    <h5 class="center-align">Caramel Macchiato</h5>
+    <img src="image/menu/11115-Caramel-Macchiato.jpg" class="menuItems" alt="green tea latte" >
+    <h5 class="center-align itemName">Caramel Macchiato</h5>
   </div>
 </div>
 
