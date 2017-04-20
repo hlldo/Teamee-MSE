@@ -1,6 +1,46 @@
 html {
     font-family: 'Josefin Sans', sans-serif !important;
 }
+/* ---- iPhone 5 ---- */
+@media only screen
+  and (min-width: 320px)
+  and (max-width: 568px) {
+    .menuItems {
+      width:120px;
+  }
+    .itemName {
+        font-size: 9pt;
+    }
+    #logo {
+      width: 100px;
+      height: 50px;
+    }
+
+}
+/* ---- iPhone 6 ---- */
+@media only screen
+  and (min-width: 375px)
+  and (max-width: 736px) {
+    .menuItems {
+      width:140px;
+  }
+    .itemName {
+        font-size: 12pt;
+    }
+
+}
+/* ---- Ipad ---- */
+@media only screen
+  and (min-width: 768px)
+  and (max-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .menuItems {
+      width:145px;
+    }
+    .itemName {
+        font-size: 12pt;
+    }
+}
 
 .text-center {
   text-align: center;
@@ -29,7 +69,7 @@ footer.page-footer {
 .row .col {
     float: left;
     box-sizing: border-box;
-    padding: 0em;
+    padding: 0 1.2em;
     min-height: 1px;
 }
 @media only screen and (min-width: 714px){
@@ -254,54 +294,23 @@ background-color: rgb(51, 51, 153);
         color: white;
         border: 0px;
     }
+    .parallax-container {
+      height: 700px;
+    }
 }
 @media only screen and (min-width: 1401px){ /** 16in + laptops **/
   .menuItems {
     width:300px;
 }
+.parallax-container {
+  height: 800px;
 }
-@media only screen and (max-width: 1400px){ /** 14in laptop **/
+}
+@media only screen and (min-width: 1100px) and (max-width:1400px){ /** 14in laptop **/
   .menuItems {
     width:200px;
 }
   .itemName {
     font-size: 14pt;
-  }
-}
-@media only screen and (max-width: 1025px){ /** Ipad Pro **/
-  .menuItems {
-    width:165px;
-}
-  .itemName {
-    font-size: 12pt;
-  }
-}
-@media only screen and (max-width: 900px){
-  .menuItems {
-    width:150px;
-}
-  .itemName {
-    font-size: 12pt;
-  }
-}
-
-@media only screen and (max-width: 500px){
-  .menuItems {
-    width:140px;
-}
-  .itemName {
-      font-size: 11pt;
-  }
-}
-@media only screen and (max-width: 370px){
-  .menuItems {
-    width:110px;
-}
-  .itemName {
-      font-size: 10pt;
-  }
-  #logo {
-    width: 100px;
-    height: 50px;
   }
 }

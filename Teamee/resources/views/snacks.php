@@ -22,12 +22,12 @@ include('header.php');
 
 <body>
     <main>
-<div class="parallax-container" style="height:700px" data-parallax="scroll" data-position="left" data-image-src="image/thomas-martinsen-29267.jpg"></div>
+<div class="parallax-container" data-parallax="scroll" data-position="left" data-image-src="image/jade-wulfraat-96024.jpg"></div>
 <div class="container">
-<div class="row" style="padding-top:100px;">
+<div class="row" style="padding-top:80px;">
   <div class="col s6 m3">
-    <img src="image/menu/asnim-asnim-142813.jpg" class="menuItems" alt="grilled tuna sandwhich>
-    <h5 class="center-align itemName">Grilled Tuna</h5>
+    <img src="image/menu/asnim-asnim-142813.jpg" class="menuItems" alt="grilled tuna sandwhich">
+    <h5 class="center-align itemName">Grilled Tuna Sandwhich</h5>
   </div>
   <div class="col s6 m3">
     <img src="image/menu/brina-blum-114390.jpg" class="menuItems" alt="decadent chocolate cake" >
