@@ -1,6 +1,59 @@
 html {
     font-family: 'Josefin Sans', sans-serif !important;
 }
+.block-grid .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.5);
+}
+@media (min-width: 768px){
+.block-grid {
+    width: 33.33%;
+    height: 500px;
+
+}
+}
+@media (max-width: 767px){
+  .block-grid{
+    width: 100%;
+    height: 350px;
+  }
+}
+.block-grid {
+    float: left;
+    position: relative;
+}
+.block-grid .title {
+    position: absolute;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 34px;
+    right: 20px;
+    bottom: 50px;
+    z-index: 2;
+    font-weight: bolder;
+}
+.block-grid .img-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.block-grid-inner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 5px;
+    right: 5px;
+}
 /* ---- iPhone 5 ---- */
 @media only screen
   and (min-width: 320px)
@@ -77,13 +130,14 @@ footer.page-footer .footer-copyright {
     height: 100px;
     line-height: 100px;
 }
+}
 @media only screen and (min-width: 320px){
 
 footer.page-footer .footer-copyright {
     height: 100px;
     line-height: 30px;
 }
-
+}
 footer.page-footer .footer-copyright {
     overflow: hidden;
     height: 100px;

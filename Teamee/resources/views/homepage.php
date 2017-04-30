@@ -102,8 +102,38 @@ include('header.php');
               </div>
             </div>
          </div>
+                      <div class="block">
+                                   <div class="block-grids">
+                                       <div class="block-grid">
+                                           <a href="tea">
+                                               <div class="block-grid-inner">
+                                                   <div class="img-wrapper" style="background-image: url('image/sabri-tuzcu-203093.jpg');"></div>
+                                                   <div class="title"><span>TEA</span></div>
+                                                   <div class="overlay"></div>
+                                               </div>
+                                           </a>
+                                       </div>
+                                       <div class="block-grid">
+                                           <a href="coffee">
+                                               <div class="block-grid-inner">
+                                                   <div class="img-wrapper" style="background-image: url('image/tim-wright-127008.jpg');"></div>
+                                                   <div class="title"><span>COFFEE</span></div>
+                                                   <div class="overlay"></div>
+                                               </div>
+                                           </a>
+                                       </div>
+                                       <div class="block-grid">
+                                           <a href="snacks">
+                                               <div class="block-grid-inner">
+                                                   <div class="img-wrapper" style="background-image: url('image/toa-heftiba-227086.jpg');"></div>
+                                                   <div class="title"><span>SNACKS</span></div>
+                                                   <div class="overlay"></div>
+                                               </div>
+                                           </a>
+                                       </div>
+                                   </div>
+                               </div>
     </main>
-
     <!-- Footer -->
     <?php
         include('footer.php');

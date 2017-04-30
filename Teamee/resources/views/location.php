@@ -1,15 +1,29 @@
 <?php
-$pageName='Store Locations';
+$pageName='Locations';
 $logoImg='image/teameeLogo.png';
 $logoID='logo';
-include('header.php');
+include('header.blade.php');
 ?>
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-    <title>Find Nearest Teamee Location</title>
+    <title>Locations</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+    </style>
 
   </head>
 
@@ -22,8 +36,8 @@ include('header.php');
 
         // Locations of each centers with their coordinates
         var loc= [
-            {"name":"Westminster, CA","lat":33.7513, "lang":-117.9940},
-            {"name":"Fullerton, CA","lat":33.8704,"lang":-117.9243},
+          {"name":"Irvine, CA","lat":33.6404952,"lang":-117.843253},
+          {"name":"Fullerton, CA","lat":33.875251,"lang":-117.9197658},
         ];
 
         var Currentlat,CurrentLoc;
@@ -32,7 +46,7 @@ include('header.php');
       function initAutocomplete() {
 
         var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 33.8025, lng: -117.9931}, //Set map to center on the United States
+          center: {lat: 33.809102, lng: -117.908012}, //Set map to center on the United States
           zoom: 11, //zoom size just to show the United States
              scrollwheel: true,
             /* Placed Map Type Control in the botom left of the map */
@@ -41,96 +55,95 @@ include('header.php');
              style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
              position: google.maps.ControlPosition.BOTTOM_LEFT
              },
-         /* Style the map */
-      styles: [
-        {
-          "featureType": "administrative.neighborhood",
-          "stylers": [
-            {
-              "visibility": "off"
-            }
-          ]
-        },
-        {
-          "featureType": "poi",
-          "elementType": "labels.text",
-          "stylers": [
-            {
-              "visibility": "off"
-            }
-          ]
-        },
-        {
-          "featureType": "poi.business",
-          "stylers": [
-            {
-              "visibility": "off"
-            }
-          ]
-        },
-        {
-          "featureType": "road",
-          "elementType": "labels",
-          "stylers": [
-            {
-              "visibility": "off"
-            }
-          ]
-        },
-        {
-          "featureType": "road",
-          "elementType": "labels.icon",
-          "stylers": [
-            {
-              "visibility": "off"
-            }
-          ]
-        },
-        {
-          "featureType": "road.arterial",
-          "elementType": "labels",
-          "stylers": [
-            {
-              "visibility": "off"
-            }
-          ]
-        },
-        {
-          "featureType": "road.highway",
-          "elementType": "labels",
-          "stylers": [
-            {
-              "visibility": "off"
-            }
-          ]
-        },
-        {
-          "featureType": "road.local",
-          "stylers": [
-            {
-              "visibility": "off"
-            }
-          ]
-        },
-        {
-          "featureType": "transit",
-          "stylers": [
-            {
-              "visibility": "off"
-            }
-          ]
-        },
-        {
-          "featureType": "water",
-          "elementType": "labels.text",
-          "stylers": [
-            {
-              "visibility": "off"
-            }
-          ]
-        }
-      ]
-        });
+             styles: [
+               {
+                 "featureType": "administrative.neighborhood",
+                 "stylers": [
+                   {
+                     "visibility": "off"
+                   }
+                 ]
+               },
+               {
+                 "featureType": "poi",
+                 "elementType": "labels.text",
+                 "stylers": [
+                   {
+                     "visibility": "off"
+                   }
+                 ]
+               },
+               {
+                 "featureType": "poi.business",
+                 "stylers": [
+                   {
+                     "visibility": "off"
+                   }
+                 ]
+               },
+               {
+                 "featureType": "road",
+                 "elementType": "labels",
+                 "stylers": [
+                   {
+                     "visibility": "off"
+                   }
+                 ]
+               },
+               {
+                 "featureType": "road",
+                 "elementType": "labels.icon",
+                 "stylers": [
+                   {
+                     "visibility": "off"
+                   }
+                 ]
+               },
+               {
+                 "featureType": "road.arterial",
+                 "elementType": "labels",
+                 "stylers": [
+                   {
+                     "visibility": "off"
+                   }
+                 ]
+               },
+               {
+                 "featureType": "road.highway",
+                 "elementType": "labels",
+                 "stylers": [
+                   {
+                     "visibility": "off"
+                   }
+                 ]
+               },
+               {
+                 "featureType": "road.local",
+                 "stylers": [
+                   {
+                     "visibility": "off"
+                   }
+                 ]
+               },
+               {
+                 "featureType": "transit",
+                 "stylers": [
+                   {
+                     "visibility": "off"
+                   }
+                 ]
+               },
+               {
+                 "featureType": "water",
+                 "elementType": "labels.text",
+                 "stylers": [
+                   {
+                     "visibility": "off"
+                   }
+                 ]
+               }
+             ]
+               });
           Outtermap=map;
           // Placed markers on each center location
           for(var i=0;i<loc.length;i++){
@@ -150,28 +163,25 @@ include('header.php');
                     lat: s.lat(),
                     lng: s.lng()
                     };
-              var link;
-              var centerAddress;
-              var centerImg;
-              var centerPhone;
+              var storeAddress;
+              var storeImg;
+              var storePhone;
               for(var i=0;i<loc.length;i++){
                   if((s.lat() == loc[i].lat) && (s.lng() == loc[i].lang)){
-                      if(loc[i].name == "Westminster, CA" ){
-                       link="#";
-                       centerImg="<br><img src='image/123.png'><br>";
-                       centerAddress="<br>1234 Main St <br> Westminster, CA 98765";
-                       centerPhone="<br>(123) 456-7890";
+                      if(loc[i].name == "Irvine, CA" ){
+                       storeImg="<br><img src='image/xochi-romero-111556.jpg' style='width:200px'><br>";
+                       storeAddress="<br>1234 Main St <br> Irvine, CA 99999";
+                       storePhone="<br>(123) 456-7890";
                       }
                       else if(loc[i].name == "Fullerton, CA"){
-                          link="#";
-                          centerImg="<br><img src='image/IMG681519940b.jpg' style='width:180px;'><br>";
-                          centerAddress="<br>4321 Main St <br> Fullerton, CA 12345";
-                          centerPhone="<br>(987) 654-3210";
+                          storeImg="<br><img src='image/patrick-tomasso-42345.jpg' style='width:200px;'><br>";
+                          storeAddress="<br>4321 Main Blvd <br> Fullerton, CA 99999";
+                          storePhone="<br>(123) 444-4444";
                       }
 
                     var infoWindow = new google.maps.InfoWindow({map: map});
 					infoWindow.setPosition(pos);
-                    infoWindow.setContent(loc[i].name+ centerImg + centerAddress + centerPhone + "<br><a href="+link+">Click Here to Visit</a>");
+                    infoWindow.setContent(loc[i].name+ storeImg + storeAddress + storePhone);
 					infoWindows.push(infoWindow);
                   }
               }
@@ -230,21 +240,20 @@ include('header.php');
                     lat: loc[i].lat,
                     lng: loc[i].lang
                     };
-                    if(loc[i].name == "Westminster, CA" ){
-                      link="#";
-                      centerImg="<br><img src='image/123.png'><br>";
-                      centerAddress="<br>1234 Main St <br> Westminster, CA 98765";
-                      centerPhone="<br>(123) 456-7890";
-                      }
-                      else if(loc[i].name == "Fullerton, CA"){
-                        link="#";
-                        centerImg="<br><img src='image/IMG681519940b.jpg' style='width:180px;'><br>";
-                        centerAddress="<br>4321 Main St <br> Fullerton, CA 12345";
-                        centerPhone="<br>(987) 654-3210";
-                      }
+                    if(loc[i].name == "Irvine, CA" ){
+                      storeImg="<br><img src='image/xochi-romero-111556.jpg' style='width:200px'><br>";
+                      storeAddress="<br>1234 Main St <br> Irvine, CA 99999";
+                      storePhone="<br>(123) 456-7890";
+                     }
+                     else if(loc[i].name == "Fullerton, CA"){
+                         storeImg="<br><img src='image/patrick-tomasso-42345.jpg' style='width:200px;'><br>";
+                         storeAddress="<br>4321 Main Blvd <br> Fullerton, CA 99999";
+                         storePhone="<br>(123) 444-4444";
+                     }
+
                     var infoWindow = new google.maps.InfoWindow({map: Outtermap});
                     infoWindow.setPosition(pos);
-                    infoWindow.setContent(loc[i].name+"\n:"+"This is your nearest store location"+ centerImg + centerAddress + centerPhone + "<br><a href="+link+">Click Here to visit</a>");
+                    infoWindow.setContent(loc[i].name+"\n:"+"This is your nearest store"+ storeImg + storeAddress + storePhone);
 
                 }
             }

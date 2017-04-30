@@ -1,4 +1,4 @@
-<footer class="page-footer">
+<footer class="page-footer" style="display: inline-block; width:100%">
         <div class="container">
             <div class="row" id="footer-row">
                 <div class="col m4 white-text text-darken-3 vertical-divider">
