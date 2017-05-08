@@ -54,13 +54,30 @@
 
 
        <!-- Dropdown-menu for Menu MOBILE VIEW-->
-       <ul id="menu" class="dropdown-content">
+       <ul id="menu2" class="dropdown-content">
            <li><a href="Tea">Tea</a></li>
            <li><a href="Coffee">Coffee</a></li>
            <li><a href="Snacks">Snacks</a></li>
        </ul>
        <!-- End of dopdown-menu for Menu MOBILE VIEW-->
 
+       <!-- Dropdown-menu for Login LAPTOP VIEW-->
+       <ul id="login" class="dropdown-content">
+           <li><a href="/login">Login</a></li>
+           <li><a href="/register">Register</a></li>
+           <hr>
+           <li><a href="/admin/login">Admin Login</a></li>
+       </ul>
+       <!-- End of dopdown-menu for Login LAPTOP VIEW-->
+
+       <!-- Dropdown-menu for Login MOBILE VIEW-->
+       <ul id="login2" class="dropdown-content">
+           <li><a href="/login">Login</a></li>
+           <li><a href="/register">Register</a></li>
+           <hr>
+           <li><a href="/admin/login">Admin Login</a></li>
+       </ul>
+       <!-- End of dopdown-menu for Login MOBILE VIEW-->
         <nav class="transparent" style="z-index:10;">
             <div class="nav-wrapper">
 
@@ -71,13 +88,14 @@
                 <a href="#" data-activates="mobile-view" class="button-collapse"><i class="material-icons indigo-text">menu</i></a>
 
                 <!-- Laptop view -->
-                <ul class="right hide-on-med-and-down">
+                <ul class="right hide-on-med-and-down" style="padding-right:60px;">
                     <li><a href="/" style="font-size:12pt;">HOME</a></li>
                     <li><a href="aboutus" style="font-size:12pt;">ABOUT US</a></li>
                     <li><a href="location" style="font-size:12pt;">LOCATIONS</a></li>
                     <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="menu" style="font-size:12pt;">MENU</a></li>
                     <li><a href="contact" style="font-size:12pt;">CONTACT</a></li>
-                    <li><a data-beloworigin="true" data-hover="true" class="modal-trigger waves-effect waves-light btn" href="#login" style="font-size:1.0em;background-color:#24478f;border:0px;">LOGIN</a></li>
+                    <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="login" style="font-size:12pt;">LOGIN</a></li>
+                  <li><a href="#"><i class="large material-icons">shopping_cart</i></a></li>
                 </ul>
                 <!-- End of laptop view -->
 
@@ -88,7 +106,8 @@
                     <li><a href="location" style="font-size:12pt;">LOCATIONS</a></li>
                     <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="menu2">MENU</a></li>
                     <li><a href="contact">CONTACT</a></li>
-                    <li><a data-beloworigin="true" data-hover="true" class="modal-trigger waves-effect waves-light btn" href="#login" style="font-size:1.0em;background-color:#24478f">Login</a></li>
+                    <li><a class="dropdown-button" data-beloworigin="true" data-hover="true" href="#" data-activates="login2">LOGIN</a></li>
+                    <li><a href="#"><i class="large material-icons">shopping_cart</i></a></li>
                 </ul>
                 <!-- Mobile view-->
 
@@ -97,59 +116,4 @@
        </nav>
     </div>
 
-
-    <!-- Modal for Login -->
-    <div id="login" class="modal">
-        <div class="modal-content center-align">
-            <h4>Login</h4>
-            <div class="row">
-                <form class="col s6 offset-s3">
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="email" type="email" class="validate">
-                            <label for="email">Email</label>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="password" type="password" class="validate">
-                            <label for="password">Password</label>
-                            <a href="#">Forget your password?</a>
-                        </div>
-                    </div>
-                </form>
-            </div>
-
-            <div class="row">
-                <div class="col s12">
-                     <h5>or</h5>
-                        <a href="#facebook">
-                            <img src="image/facebook-logo.png" class="social-media" alt="facebook" style="height:40px;width:40px;"/>
-                        </a>
-                        <a href="#twitter">
-                            <img src="image/twitter-logo.png" class="social-media" style="height:40px;width:40px;"/>
-                        </a>
-                        <a href="#googleplus">
-                             <img src="image/Google_plus.png" class="social-media" style="height:42px;width:42px;"/>
-                        </a>
-                        <a href="#linkedin">
-                            <img src="image/LinkedIn_logo_initials.png" class="social-media" style="width:40px;"/>
-                        </a>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col s12">
-                    <a class="waves-effect waves-light btn btn-large z-depth-3 indigo darken-4" style="width:53%;">Sign in</a>
-                    <p class="center-align">
-                        <input type="checkbox" class="filled-in" id="filled-in-box" />
-                        <label for="filled-in-box">Keep me logged-in</label>
-                        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">New here? Join Us</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End of modal for Login -->
     </header>

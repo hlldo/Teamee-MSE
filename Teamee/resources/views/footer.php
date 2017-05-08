@@ -16,8 +16,8 @@
 
                 <div class="col m4 white-text text-darken-3 vertical-divider">
                     <h5 style="padding-left:15px"><b>Teamee Contents</b></h5>
-                    <p><i class="material-icons icons" style="padding-left:15px">store_mall_directory</i><a href="locations" class="white-text text-darken-3">Locations</a><br>
-                    <i class="material-icons icons" style="padding-left:15px">web</i><a href="menu" class="white-text text-darken-3">Menu</a><br>
+                    <p><i class="material-icons icons" style="padding-left:15px">store_mall_directory</i><a href="location" class="white-text text-darken-3">Locations</a><br>
+                    <i class="material-icons icons" style="padding-left:15px">web</i><a href="product" class="white-text text-darken-3">Menu</a><br>
                     <i class="material-icons icons" style="padding-left:15px">assignment_ind</i><a href="contact" class="white-text text-darken-3">Contact</a></p>
                 </div>
 

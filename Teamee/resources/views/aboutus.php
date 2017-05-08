@@ -21,7 +21,9 @@ include('header.php');
 </script>
 <body>
     <main>
-      <div class="parallax-container" style="height:600px" data-parallax="scroll" data-position="left" data-image-src="image/zachary-staines-181100.jpg"></div>
+      <div class="parallax-container">
+     <div class="parallax"><img src="images/parallax1.jpg"></div>
+   </div>
       <h1 class="text-center">About Our Farms</h1>
       <div class="container">
         <div class="row" style="padding-bottom:80px;">
