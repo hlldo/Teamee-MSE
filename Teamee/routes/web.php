@@ -13,6 +13,7 @@
 
 Route::get('/email', 'HomeController@email')->name('sendEmail');
 Route::get('/receipt', 'HomeController@getReceipt')->name('sendOrderReceipt');
+Route::get('/complete', 'HomeController@completeOrder')->name('completeOrder');
 
 Route::get('/', function () {
     return view('homepage');
